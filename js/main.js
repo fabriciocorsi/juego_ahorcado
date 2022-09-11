@@ -119,7 +119,7 @@ function show_swal_ganaste() {
 function music_perdedor() {
     let sound_perdedor = new Howl({
         src: [
-            "https://github.com/JakubSkraly/ahorcado-java-script/blob/main/sound/perdedor.mp3?raw=true",
+            "https://github.com/fabriciocorsi/juego_ahorcado/blob/main/sound/ganador.mp3?raw=true",
         ],
         html5: true,
     });
@@ -129,7 +129,7 @@ function music_perdedor() {
 function music_ganador() {
     let sound_ganador = new Howl({
         src: [
-            "https://github.com/JakubSkraly/ahorcado-java-script/blob/main/sound/ganador.mp3?raw=true",
+            "https://github.com/fabriciocorsi/juego_ahorcado/blob/main/sound/perdedor.mp3?raw=true",
         ],
         html5: true,
     });
